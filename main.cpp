@@ -170,7 +170,6 @@ public:
     }
 
     void inicializarEnjambre() {
-        srand(static_cast<unsigned int>(time(nullptr)));
         for (int i = 0; i < num_particulas; ++i) {
             Particula particula;
             vector<Horario> posicion;
@@ -242,8 +241,8 @@ public:
 
 int main() {
     srand(static_cast<unsigned int>(time(nullptr)));
-    const int NUM_PROFESORES = 30;
-    const int NUM_AULAS = 40;
+    const int NUM_PROFESORES = 15;
+    const int NUM_AULAS = 30;
     const int NUM_CLASES = 60;
     const int NUM_PARTICULAS = 30;
     const int ITERACIONES = 1000;

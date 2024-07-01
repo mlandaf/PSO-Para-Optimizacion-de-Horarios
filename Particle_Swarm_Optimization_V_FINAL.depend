@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1719795244 source:c:\users\marce\escritorio\particle swarm optmization\particle_swarm_optimization_v_final\main.cpp
+	<iostream>
+	<vector>
+	<limits>
+	<cstdlib>
+	<ctime>
+
